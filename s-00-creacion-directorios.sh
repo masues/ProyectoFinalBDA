@@ -16,6 +16,9 @@ if ! [ ${USER} = "root" ]; then
   exit 1
 fi
 
+#Borrado en caso de errores
+rm -Rf /u01/app/oracle/oradata/ROSUPROY/
+
 mkdir -p /u01/app/oracle/oradata/ROSUPROY/ \
 		  /u01/app/oracle/oradata/ROSUPROY/disk_1 \
 		  /u01/app/oracle/oradata/ROSUPROY/disk_2 \
@@ -31,7 +34,7 @@ chown oracle.oinstall disk_1
 chown oracle.oinstall disk_2 
 chown oracle.oinstall disk_3 
 chown oracle.oinstall disk_4 
-chown oracle.oinstall disk_5 
+chown -R oracle.oinstall disk_5 
 
 #Para cambiar los permisos a los directorios
 chmod 755 /u01/app/oracle/oradata/ROSUPROY

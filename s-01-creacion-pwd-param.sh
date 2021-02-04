@@ -32,7 +32,7 @@ echo "db_name=${ORACLE_SID}" >> ${archivoParametros}
 # Ubicación de control files
 echo "control_files=(
   /u01/app/oracle/oradata/${ORACLE_SID^^}/control01.ctl,
-  /u02/app/oracle/oradata/${ORACLE_SID^^}/disk_1/control02.ctl
+  /u01/app/oracle/oradata/${ORACLE_SID^^}/disk_1/control02.ctl
 )" >> ${archivoParametros}
 # Automatic Shared Memory Management
 echo "memory_target=0" >> ${archivoParametros}
