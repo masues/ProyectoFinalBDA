@@ -52,7 +52,7 @@ create database rosuproy
     extent management local autoallocate
     segment space management auto;
 
--- Actualización de contraseñase de usuarios 
+-- Actualización de contraseñas de usuarios
 alter user sys identified by system;
 alter user system identified by system;
 
