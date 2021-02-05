@@ -1,9 +1,7 @@
 -- @Integrantes:   Rosales Romero Ricardo
 --                 Suaréz Espinoza Mario Alberto
--- @Fecha:         03 de febrero de 2021
--- @Descripcion:   Configura el modo compartido en la base de datos.
---                 Para poder registrar en el listener se necesita que esté
---                 habilitado.
+-- @Fecha:         04 de febrero de 2021
+-- @Descripcion:   Configura el modo archivado en la base de datos
 
 -- Conectando como sys
 connect sys/system as sysdba
