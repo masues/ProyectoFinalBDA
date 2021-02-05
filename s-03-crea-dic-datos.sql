@@ -1,6 +1,6 @@
 -- @Integrantes:   Rosales Romero Ricardo
 --                 Suaréz Espinoza Mario Alberto
--- @Fecha:         03 de febrero de 2020
+-- @Fecha:         03 de febrero de 2021
 -- @Descripcion:   Creacion de diccionario de datos.
 --                 Es necesario que se haya exportado la varable ORACLE_SID
 --                 antes de ejecutarlo.

@@ -1,6 +1,6 @@
 -- @Integrantes:   Rosales Romero Ricardo
 --                 Suaréz Espinoza Mario Alberto
--- @Fecha:         03 de febrero de 2020
+-- @Fecha:         03 de febrero de 2021
 -- @Descripcion:   Creacion de base de datos, grupos de redo logs y tablespaces.
 
 connect sys/Hola1234# as sysdba

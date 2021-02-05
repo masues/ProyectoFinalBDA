@@ -1,11 +1,11 @@
 -- @Integrantes:   Rosales Romero Ricardo
 --                 Suaréz Espinoza Mario Alberto
--- @Fecha:         03 de febrero de 2020
+-- @Fecha:         03 de febrero de 2021
 -- @Descripcion:   Creacion de usuarios por modulo en la base de datos.
 
 -------Usuario del modulo Administración de usuarios------------
 
-sqlplus sys as sysdba
+connect sys/system as sysdba
 
 create user mse_admin_users identified by mario;
 grant create session to mse_admin_users;
