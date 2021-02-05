@@ -458,12 +458,12 @@ CREATE TABLE OFERTA(
 -- index: oferta_num_oferta_iuk
 --
 
-create unique index oferta_num_oferta_iuk on OFERTA(NUM_OFERTA) tablespace ADMIN_OBJ_INDEX_TS;
+create  index oferta_num_oferta_iuk on OFERTA(NUM_OFERTA) tablespace ADMIN_OBJ_INDEX_TS;
 -- 
 -- index: oferta_objeto_id_usuario_id_ix
 --
 
-create unique index oferta_objeto_id_usuario_id_ix on OFERTA(OFERTA_ID , USUARIO_ID )
+create index oferta_objeto_id_usuario_id_ix on OFERTA(OFERTA_ID , USUARIO_ID )
 tablespace ADMIN_OBJ_INDEX_TS;
 
 -- 
