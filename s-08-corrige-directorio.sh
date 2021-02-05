@@ -1,7 +1,7 @@
 #!/bin/bash
 # @Integrantes: 	Rosales Romero Ricardo
 #                 Suárez Espinoza Mario Alberto
-# @Fecha:         03 de febrero de 2021
+# @Fecha:         04 de febrero de 2021
 # @Descripción:   Script para crear el directorio faltante (archivelog)
 #                 EL SCRIPT DEBE EJECUTARSE CON EL USUARIO ROOT
 
